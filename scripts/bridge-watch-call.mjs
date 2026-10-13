@@ -10,8 +10,7 @@
  *
  * No API key, no wallet, no dependencies. Node >= 18.
  */
-'use strict';
-const https = require('node:https');
+import https from 'node:https';
 
 const URL_DEFAULT = 'https://agentsapi.top/mcp';
 const argv = process.argv.slice(2);
